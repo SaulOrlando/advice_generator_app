@@ -1,0 +1,22 @@
+{
+  "name": "advice_generator_app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss ./src/css/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "postcss"
+  ],
+  "author": "salando",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
