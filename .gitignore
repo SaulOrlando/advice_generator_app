@@ -18,3 +18,5 @@
 node_modules
 /assets/**/*.png
 /design
+
+/**/*.py
