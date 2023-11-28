@@ -6,9 +6,6 @@ module.exports = {
       fontFamily: {
         "manrope": ['"Manrope"']
       },
-      screens: {
-        "dektop": "1440px"
-      },
       colors: {
         "light-cyan": "hsl(193, 38%, 86%)",
         "neon-green": "hsl(150, 100%, 66%)",
