@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const defaults_fonts = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
       fontFamily: {
-        "manrope": ['"Manrope"']
+        "manrope": ['"Manrope"', ...defaults_fonts.fontFamily.sans]
       },
       colors: {
         "light-cyan": "hsl(193, 38%, 86%)",
