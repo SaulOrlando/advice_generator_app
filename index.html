@@ -11,15 +11,15 @@
 <body>
   <main class="min-h-screen bg-dark-blue flex items-center justify-center font-manrope font-extrabold relative pb-24">
     <section class="w-[91%] bg-dark-grayish-blue rounded-lg flex items-center flex-col pt-11 pb-16 gap-8 px-6 relative lg:w-[38%]">
-      <h2 class="text-neon-green">Advice #<!-- Advice ID goes here --></h2>
-      <p class="text-[28px] text-light-cyan">" Lorem ipsum dacilis sapiente nihil et repellendus consectetur temporibus ea qui quae dicta? "</p>
+      <h2 id="advice_id" class="text-neon-green"></h2>
+      <p class="text-[28px] text-light-cyan text-center" id="advice"></p>
       <picture>
         <source media="(width >= 640px)" srcset="./assets/images/pattern-divider-desktop.svg">
         <img src="./assets/images/pattern-divider-mobile.svg" alt="divider" class="block">
       </picture>
-      <div class="absolute p-5 bg-neon-green -bottom-8 rounded-full hover:shadow-neon-green hover:shadow-[1px_1px_16px,1px_-1px_16px,-1px_1px_16px,-1px_-1px_16px]">
+      <button id="dice-button" class="absolute p-5 bg-neon-green -bottom-8 rounded-full hover:shadow-neon-green hover:shadow-[1px_1px_16px,1px_-1px_16px,-1px_1px_16px,-1px_-1px_16px]">
         <img src="./assets/images/icon-dice.svg" alt="icon dice">
-      </div>
+      </button>
     </section>
     <p class="text-light-cyan font-manrope absolute bottom-5 mx-4 text-center">
       Desafío de <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="link">Frontend Mentor</a>.
@@ -27,5 +27,6 @@
       Codificado por <a href="https://github.com/SaulOrlando" class="link">Salando</a>.
     </p>
   </main>
+  <script src="./src/js/request.js"></script>
 </body>
 </html>
