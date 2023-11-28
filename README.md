@@ -1,112 +1,93 @@
-# Frontend Mentor - Advice generator app solution
+# Solución de Frontend Mentor - Advice Generator App
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Esta es mi solución al desafío de Frontend Mento, ["Advice Generator App"](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-## Table of contents
+## Tabla de Contenidos
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Solución de Frontend Mentor - Advice Generator App](#solución-de-frontend-mentor---advice-generator-app)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción General](#descripción-general)
+    - [El Desafío](#el-desafío)
+    - [Screenshots](#screenshots)
+      - [Teléfono](#teléfono)
+      - [Desktop](#desktop)
+        - [Normal](#normal)
+        - [Estados Activados](#estados-activados)
+    - [Links](#links)
+  - [Mi Proceso](#mi-proceso)
+    - [Tecnologías](#tecnologías)
+    - [¿Que aprendí?](#que-aprendí)
+    - [Continuar desarrollando](#continuar-desarrollando)
+    - [Recursos Útiles](#recursos-útiles)
+  - [Autor](#autor)
+  - [Agradecimientos](#agradecimientos)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Descripción General
 
-## Overview
+### El Desafío
 
-### The challenge
+Los requerimientos del desafío son:
 
-Users should be able to:
+- Ver el diseño óptimo para la aplicación según el tamaño de pantalla de su dispositivo
+- Ver estados de desplazamiento para todos los elementos interactivos en la página
+- Genera un nuevo consejo haciendo clic en el ícono del dado
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
+### Screenshots
 
-### Screenshot
+#### Teléfono
 
-![](./screenshot.jpg)
+375px
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![mobile](./screenshots/telefono.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+#### Desktop
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+##### Normal
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+1440px
+
+![desktop](./screenshots/desktop.png)
+
+##### Estados Activados
+
+![estados activados](./screenshots/estados.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<!-- TODO  falata poner el la url del sitio y el de la solución-->
+- [Solución "Advice Generator App"](https://your-solution-url.com)
+- [](https://your-live-site-url.com)
 
-## My process
+## Mi Proceso
 
-### Built with
+### Tecnologías
 
-- Semantic HTML5 markup
-- CSS custom properties
+Esta página web esta construida con las siguientes tecnologías:
+
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Mobile-first
+- [Postcss](https://postcss.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Pnpm](https://pnpm.io/es/)
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### ¿Que aprendí?
 
-### What I learned
+Aprendí sobre la función *async* de **Javascript** para el manejo de operaciones asíncronas, ya antes había probado la estructura *then* para operaciones asíncronas y la verdad todavía me sigue gustando más, pero esta manera de manejar operaciones asíncronas me gusta tambien, se ve más ordenado y limpio el código, siento que se ve de manera más lógica, aun así todavía me sigue resultando confuso.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### Continuar desarrollando
 
-To see how you can add code snippets, see below:
+Quiero seguir haciendo más páginas con Tailwindcss y Postcss para seguir mejorando mis habilidades.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+### Recursos Útiles
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- [Guía Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Me ayudo a aprender Flexbox.
+- [Juego para practicar Flexbox](https://flexboxfroggy.com/#es) - Me ayudo a practicar Flexbox.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+## Autor
 
-### Continued development
+- [Frontend Mentor](https://www.frontendmentor.io/profile/SaulOrlando)
+- [Github](https://github.com/SaulOrlando)
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## Agradecimientos
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Agradezco a mi profesora que me enseño bien.
