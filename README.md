@@ -54,9 +54,8 @@ Los requerimientos del desafío son:
 
 ### Links
 
-<!-- TODO  falata poner el la url del sitio y el de la solución-->
-- [Solución "Advice Generator App"](https://your-solution-url.com)
-- [](https://your-live-site-url.com)
+- [Solución "Advice Generator App"](https://www.frontendmentor.io/solutions/solucin-del-desafo-advice-generator-app-vNIn7y7F0C)
+- [Sitio web](https://saulorlando.github.io/advice_generator_app/)
 
 ## Mi Proceso
 
