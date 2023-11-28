@@ -4,7 +4,7 @@
 
 @layer components{
   .link{
-    @apply text-neon-green transition hover:text-grayish-blue
+    @apply text-neon-green no-underline transition-colors hover:underline hover:decoration-2
   }
 }
 
